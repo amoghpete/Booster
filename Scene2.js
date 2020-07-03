@@ -153,16 +153,16 @@ class Scene2 extends Phaser.Scene {
         //improvisation
         this.pickupSound.play();
 
-        gameSettings.ship1Speed += 1
-        gameSettings.ship2Speed += 1
-        gameSettings.ship3Speed += 1
+        gameSettings.ship1Speed += 1.5
+        gameSettings.ship2Speed += 1.5
+        gameSettings.ship3Speed += 1.5
 
         this.time.addEvent({
             delay: 5000,
             callback: function(){
-                gameSettings.ship1Speed -= 1
-                gameSettings.ship2Speed -= 1
-                gameSettings.ship3Speed -= 1
+                gameSettings.ship1Speed -= 1.5
+                gameSettings.ship2Speed -= 1.5
+                gameSettings.ship3Speed -= 1.5
             },
             callbackScope: this,
             loop: false
@@ -295,7 +295,7 @@ class Scene2 extends Phaser.Scene {
                 fontSize: '15px', fill: '#faf5af'
             })
         } else {
-            this.add.text(40, 40, 'Your Score is ' + this.score, { 
+            this.add.text(50, 40, 'Your Score is ' + this.score, { 
                 fontSize: '15px', fill: '#faf5af'
             })
         }
