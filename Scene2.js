@@ -283,6 +283,17 @@ class Scene2 extends Phaser.Scene {
     }
 
     gameOver(){
+	    if(this.score < 0){
+                this.add.text(30, 40, 'Your Score is Negative', { 
+                fontSize: '15px', fill: '#faf5af'
+            })
+        } else {
+            this.add.text(40, 40, 'Your Score is ' + this.score, { 
+                fontSize: '15px', fill: '#faf5af'
+            })
+        }
+
+	       
         this.add.text(40, 100, '\t\t\tGame Over\n\nClick on Screen\n To Play Again', { 
             fontSize: '20px', fill: '#ffe852'
         })
