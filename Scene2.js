@@ -70,16 +70,17 @@ class Scene2 extends Phaser.Scene {
         this.powerUps = this.physics.add.group();
 
         this.addpowerup();
-	    if(gameSettings.active){
+	    
 		this.time.addEvent({
 		    delay: 15000,
 		    callback: function(){
+			    if(gameSettings.active){
 			this.addpowerup();
+			    }
 		    },
 		    callbackScope: this,
 		    loop: true
 		});
-	    }
         this.player = this.physics.add.sprite(config.width/2 - 8, config.height - 64, "player");
         this.player.play("thrust");
 
