@@ -71,7 +71,7 @@ class Scene2 extends Phaser.Scene {
 
         this.addpowerup();
         this.time.addEvent({
-            delay: 10000,
+            delay: 15000,
             callback: function(){
                 this.addpowerup();
             },
