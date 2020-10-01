@@ -14,7 +14,7 @@
 <p align="center"><img src="https://user-images.githubusercontent.com/55925333/94809684-96beb300-0410-11eb-960f-65e4050d8211.png"/></p>
 <h2 align="center"><a href="https://amoghpete.github.io/Booster/">Click here to open :💻👨‍💻</a></h2>
 
-##Misson
+## Misson
 
 -To score high before Player ship's lives get exhausted. Try not to score negative.
 
