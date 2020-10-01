@@ -1,6 +1,3 @@
-[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-
-
 
 <h1 align="center">Booster Game</h1>
 <p align="center"><img src="https://user-images.githubusercontent.com/55925333/94810575-d5a13880-0411-11eb-93d1-aa9dedc22d18.png"/></p>
@@ -37,10 +34,3 @@ The following are the default game rule:
 -Only 3 lives ❤❤❤are available that is 4 chance in total
 
 
-## Contribute
-
--Feel free to contribute.
-
-## License
-
-MIT license.
